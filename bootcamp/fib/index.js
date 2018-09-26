@@ -8,6 +8,7 @@
 // Example:
 //   fib(4) === 3
 
+// Use memoize to cut down the run time complexity of a recursive fib sequence
 function memoize(fn) {
     const cache = {};
     return function(...args) {
